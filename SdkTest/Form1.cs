@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace SdkTest
 {
-    public partial class Form1 : DevExpress.XtraEditors.XtraForm
+    public partial class Form1 : Form
     {
         List<SepidModel> sepidItems = new List<SepidModel>();
 
