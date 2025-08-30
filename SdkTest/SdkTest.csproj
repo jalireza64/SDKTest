@@ -34,13 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.BonusSkins.v20.2" />
-    <Reference Include="DevExpress.Data.Desktop.v20.2" />
-    <Reference Include="DevExpress.Data.v20.2" />
-    <Reference Include="DevExpress.Utils.v20.2" />
-    <Reference Include="DevExpress.Sparkline.v20.2.Core" />
-    <Reference Include="DevExpress.XtraEditors.v20.2" />
-    <Reference Include="DevExpress.Printing.v20.2.Core" />
     <Reference Include="Glassess.IO">
       <HintPath>..\Libs\Glassess.IO.dll</HintPath>
     </Reference>
@@ -103,6 +96,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Libs\Glassess.IO.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Libs\Glassess.Messaging.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Libs\MainController.dll" />
+    <Content Include="Libs\Sepid.Board.Operation.dll" />
+    <Content Include="Libs\SimpleTCP.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -96,20 +96,22 @@ namespace SdkTest
             this.lblKavehFakeTimeOn.Controls.Add(this.tabPage1);
             this.lblKavehFakeTimeOn.Controls.Add(this.tabPage2);
             this.lblKavehFakeTimeOn.Controls.Add(this.tabPage3);
-            this.lblKavehFakeTimeOn.Location = new System.Drawing.Point(12, 12);
+            this.lblKavehFakeTimeOn.Location = new System.Drawing.Point(10, 10);
+            this.lblKavehFakeTimeOn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblKavehFakeTimeOn.Name = "lblKavehFakeTimeOn";
             this.lblKavehFakeTimeOn.SelectedIndex = 0;
-            this.lblKavehFakeTimeOn.Size = new System.Drawing.Size(473, 502);
+            this.lblKavehFakeTimeOn.Size = new System.Drawing.Size(405, 408);
             this.lblKavehFakeTimeOn.TabIndex = 0;
             // 
             // tabPage1
             // 
             this.tabPage1.AllowDrop = true;
             this.tabPage1.Controls.Add(this.panel1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(465, 473);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage1.Size = new System.Drawing.Size(397, 382);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Kaveh SDK";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -130,52 +132,58 @@ namespace SdkTest
             this.panel1.Controls.Add(this.txtKavehPort);
             this.panel1.Controls.Add(this.lblKavehPort);
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(465, 473);
+            this.panel1.Size = new System.Drawing.Size(399, 384);
             this.panel1.TabIndex = 0;
             // 
             // lblKavehMessage
             // 
             this.lblKavehMessage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblKavehMessage.Location = new System.Drawing.Point(30, 272);
+            this.lblKavehMessage.Location = new System.Drawing.Point(26, 221);
             this.lblKavehMessage.Name = "lblKavehMessage";
-            this.lblKavehMessage.Size = new System.Drawing.Size(407, 23);
+            this.lblKavehMessage.Size = new System.Drawing.Size(349, 19);
             this.lblKavehMessage.TabIndex = 16;
             this.lblKavehMessage.Text = "Response:";
             // 
             // txtKavehTimeOn
             // 
-            this.txtKavehTimeOn.Location = new System.Drawing.Point(169, 176);
+            this.txtKavehTimeOn.Location = new System.Drawing.Point(145, 143);
+            this.txtKavehTimeOn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtKavehTimeOn.Name = "txtKavehTimeOn";
-            this.txtKavehTimeOn.Size = new System.Drawing.Size(268, 23);
+            this.txtKavehTimeOn.Size = new System.Drawing.Size(230, 20);
             this.txtKavehTimeOn.TabIndex = 15;
             // 
             // txtkavehRelayNumber
             // 
-            this.txtkavehRelayNumber.Location = new System.Drawing.Point(169, 138);
+            this.txtkavehRelayNumber.Location = new System.Drawing.Point(145, 112);
+            this.txtkavehRelayNumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtkavehRelayNumber.Name = "txtkavehRelayNumber";
-            this.txtkavehRelayNumber.Size = new System.Drawing.Size(268, 23);
+            this.txtkavehRelayNumber.Size = new System.Drawing.Size(230, 20);
             this.txtkavehRelayNumber.TabIndex = 14;
             // 
             // txtKavehEndUserAddress
             // 
-            this.txtKavehEndUserAddress.Location = new System.Drawing.Point(169, 102);
+            this.txtKavehEndUserAddress.Location = new System.Drawing.Point(145, 83);
+            this.txtKavehEndUserAddress.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtKavehEndUserAddress.Name = "txtKavehEndUserAddress";
-            this.txtKavehEndUserAddress.Size = new System.Drawing.Size(268, 23);
+            this.txtKavehEndUserAddress.Size = new System.Drawing.Size(230, 20);
             this.txtKavehEndUserAddress.TabIndex = 13;
             // 
             // txtKavehRouterAddress
             // 
-            this.txtKavehRouterAddress.Location = new System.Drawing.Point(169, 66);
+            this.txtKavehRouterAddress.Location = new System.Drawing.Point(145, 54);
+            this.txtKavehRouterAddress.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtKavehRouterAddress.Name = "txtKavehRouterAddress";
-            this.txtKavehRouterAddress.Size = new System.Drawing.Size(268, 23);
+            this.txtKavehRouterAddress.Size = new System.Drawing.Size(230, 20);
             this.txtKavehRouterAddress.TabIndex = 12;
             // 
             // btnKavehClose
             // 
-            this.btnKavehClose.Location = new System.Drawing.Point(30, 220);
+            this.btnKavehClose.Location = new System.Drawing.Point(26, 179);
+            this.btnKavehClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnKavehClose.Name = "btnKavehClose";
-            this.btnKavehClose.Size = new System.Drawing.Size(133, 35);
+            this.btnKavehClose.Size = new System.Drawing.Size(114, 28);
             this.btnKavehClose.TabIndex = 11;
             this.btnKavehClose.Text = "Close";
             this.btnKavehClose.UseVisualStyleBackColor = true;
@@ -183,9 +191,10 @@ namespace SdkTest
             // 
             // btnKavehOpen
             // 
-            this.btnKavehOpen.Location = new System.Drawing.Point(169, 220);
+            this.btnKavehOpen.Location = new System.Drawing.Point(145, 179);
+            this.btnKavehOpen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnKavehOpen.Name = "btnKavehOpen";
-            this.btnKavehOpen.Size = new System.Drawing.Size(268, 35);
+            this.btnKavehOpen.Size = new System.Drawing.Size(230, 28);
             this.btnKavehOpen.TabIndex = 10;
             this.btnKavehOpen.Text = "Open";
             this.btnKavehOpen.UseVisualStyleBackColor = true;
@@ -194,62 +203,64 @@ namespace SdkTest
             // lblKavehTimeOn
             // 
             this.lblKavehTimeOn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblKavehTimeOn.Location = new System.Drawing.Point(30, 176);
+            this.lblKavehTimeOn.Location = new System.Drawing.Point(26, 143);
             this.lblKavehTimeOn.Name = "lblKavehTimeOn";
-            this.lblKavehTimeOn.Size = new System.Drawing.Size(133, 23);
+            this.lblKavehTimeOn.Size = new System.Drawing.Size(114, 19);
             this.lblKavehTimeOn.TabIndex = 8;
             this.lblKavehTimeOn.Text = "Time On:";
             // 
             // lblkavehRelayNumber
             // 
             this.lblkavehRelayNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblkavehRelayNumber.Location = new System.Drawing.Point(30, 138);
+            this.lblkavehRelayNumber.Location = new System.Drawing.Point(26, 112);
             this.lblkavehRelayNumber.Name = "lblkavehRelayNumber";
-            this.lblkavehRelayNumber.Size = new System.Drawing.Size(133, 23);
+            this.lblkavehRelayNumber.Size = new System.Drawing.Size(114, 19);
             this.lblkavehRelayNumber.TabIndex = 6;
             this.lblkavehRelayNumber.Text = "Relay Number:";
             // 
             // lblKavehEndUserAddress
             // 
             this.lblKavehEndUserAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblKavehEndUserAddress.Location = new System.Drawing.Point(30, 102);
+            this.lblKavehEndUserAddress.Location = new System.Drawing.Point(26, 83);
             this.lblKavehEndUserAddress.Name = "lblKavehEndUserAddress";
-            this.lblKavehEndUserAddress.Size = new System.Drawing.Size(133, 23);
+            this.lblKavehEndUserAddress.Size = new System.Drawing.Size(114, 19);
             this.lblKavehEndUserAddress.TabIndex = 4;
             this.lblKavehEndUserAddress.Text = "End User Address:";
             // 
             // lblKavehRouterAddress
             // 
             this.lblKavehRouterAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblKavehRouterAddress.Location = new System.Drawing.Point(30, 66);
+            this.lblKavehRouterAddress.Location = new System.Drawing.Point(26, 54);
             this.lblKavehRouterAddress.Name = "lblKavehRouterAddress";
-            this.lblKavehRouterAddress.Size = new System.Drawing.Size(133, 23);
+            this.lblKavehRouterAddress.Size = new System.Drawing.Size(114, 19);
             this.lblKavehRouterAddress.TabIndex = 2;
             this.lblKavehRouterAddress.Text = "Router Address:";
             // 
             // txtKavehPort
             // 
             this.txtKavehPort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtKavehPort.Location = new System.Drawing.Point(169, 27);
+            this.txtKavehPort.Location = new System.Drawing.Point(145, 22);
+            this.txtKavehPort.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtKavehPort.Name = "txtKavehPort";
-            this.txtKavehPort.Size = new System.Drawing.Size(268, 23);
+            this.txtKavehPort.Size = new System.Drawing.Size(230, 20);
             this.txtKavehPort.TabIndex = 1;
             // 
             // lblKavehPort
             // 
             this.lblKavehPort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblKavehPort.Location = new System.Drawing.Point(30, 27);
+            this.lblKavehPort.Location = new System.Drawing.Point(26, 22);
             this.lblKavehPort.Name = "lblKavehPort";
-            this.lblKavehPort.Size = new System.Drawing.Size(133, 23);
+            this.lblKavehPort.Size = new System.Drawing.Size(114, 19);
             this.lblKavehPort.TabIndex = 0;
             this.lblKavehPort.Text = "Port:";
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.panel2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(465, 473);
+            this.tabPage2.Size = new System.Drawing.Size(397, 382);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Sepid SDK";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -266,9 +277,10 @@ namespace SdkTest
             this.panel2.Controls.Add(this.lblSepidPort);
             this.panel2.Controls.Add(this.txtSepidIP);
             this.panel2.Controls.Add(this.lblSepidIp);
-            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Location = new System.Drawing.Point(3, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(459, 467);
+            this.panel2.Size = new System.Drawing.Size(393, 379);
             this.panel2.TabIndex = 0;
             // 
             // grdSepid
@@ -278,7 +290,8 @@ namespace SdkTest
             this.grdSepid.AllowUserToResizeRows = false;
             this.grdSepid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grdSepid.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.grdSepid.Location = new System.Drawing.Point(28, 196);
+            this.grdSepid.Location = new System.Drawing.Point(24, 159);
+            this.grdSepid.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grdSepid.MultiSelect = false;
             this.grdSepid.Name = "grdSepid";
             this.grdSepid.RowHeadersWidth = 51;
@@ -287,14 +300,15 @@ namespace SdkTest
             this.grdSepid.ShowCellToolTips = false;
             this.grdSepid.ShowEditingIcon = false;
             this.grdSepid.ShowRowErrors = false;
-            this.grdSepid.Size = new System.Drawing.Size(404, 165);
+            this.grdSepid.Size = new System.Drawing.Size(346, 134);
             this.grdSepid.TabIndex = 23;
             // 
             // btnSepidAddToList
             // 
-            this.btnSepidAddToList.Location = new System.Drawing.Point(28, 138);
+            this.btnSepidAddToList.Location = new System.Drawing.Point(24, 112);
+            this.btnSepidAddToList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSepidAddToList.Name = "btnSepidAddToList";
-            this.btnSepidAddToList.Size = new System.Drawing.Size(404, 35);
+            this.btnSepidAddToList.Size = new System.Drawing.Size(346, 28);
             this.btnSepidAddToList.TabIndex = 22;
             this.btnSepidAddToList.Text = "Add To List";
             this.btnSepidAddToList.UseVisualStyleBackColor = true;
@@ -303,17 +317,18 @@ namespace SdkTest
             // lblSepidMessage
             // 
             this.lblSepidMessage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSepidMessage.Location = new System.Drawing.Point(28, 436);
+            this.lblSepidMessage.Location = new System.Drawing.Point(24, 354);
             this.lblSepidMessage.Name = "lblSepidMessage";
-            this.lblSepidMessage.Size = new System.Drawing.Size(404, 23);
+            this.lblSepidMessage.Size = new System.Drawing.Size(347, 19);
             this.lblSepidMessage.TabIndex = 21;
             this.lblSepidMessage.Text = "Response:";
             // 
             // btnSepidOpen
             // 
-            this.btnSepidOpen.Location = new System.Drawing.Point(28, 383);
+            this.btnSepidOpen.Location = new System.Drawing.Point(24, 311);
+            this.btnSepidOpen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSepidOpen.Name = "btnSepidOpen";
-            this.btnSepidOpen.Size = new System.Drawing.Size(404, 35);
+            this.btnSepidOpen.Size = new System.Drawing.Size(346, 28);
             this.btnSepidOpen.TabIndex = 20;
             this.btnSepidOpen.Text = "Open";
             this.btnSepidOpen.UseVisualStyleBackColor = true;
@@ -321,60 +336,74 @@ namespace SdkTest
             // 
             // txtSepidPin
             // 
-            this.txtSepidPin.Location = new System.Drawing.Point(167, 99);
+            this.txtSepidPin.Location = new System.Drawing.Point(143, 80);
+            this.txtSepidPin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtSepidPin.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
             this.txtSepidPin.Name = "txtSepidPin";
-            this.txtSepidPin.Size = new System.Drawing.Size(265, 23);
+            this.txtSepidPin.Size = new System.Drawing.Size(227, 20);
             this.txtSepidPin.TabIndex = 19;
             // 
             // txtSepidPort
             // 
-            this.txtSepidPort.Location = new System.Drawing.Point(167, 63);
+            this.txtSepidPort.Location = new System.Drawing.Point(143, 51);
+            this.txtSepidPort.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtSepidPort.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
             this.txtSepidPort.Name = "txtSepidPort";
-            this.txtSepidPort.Size = new System.Drawing.Size(265, 23);
+            this.txtSepidPort.Size = new System.Drawing.Size(227, 20);
             this.txtSepidPort.TabIndex = 18;
             // 
             // lblSepidPin
             // 
             this.lblSepidPin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSepidPin.Location = new System.Drawing.Point(28, 99);
+            this.lblSepidPin.Location = new System.Drawing.Point(24, 80);
             this.lblSepidPin.Name = "lblSepidPin";
-            this.lblSepidPin.Size = new System.Drawing.Size(133, 23);
+            this.lblSepidPin.Size = new System.Drawing.Size(114, 19);
             this.lblSepidPin.TabIndex = 17;
             this.lblSepidPin.Text = "Pin:";
             // 
             // lblSepidPort
             // 
             this.lblSepidPort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSepidPort.Location = new System.Drawing.Point(28, 63);
+            this.lblSepidPort.Location = new System.Drawing.Point(24, 51);
             this.lblSepidPort.Name = "lblSepidPort";
-            this.lblSepidPort.Size = new System.Drawing.Size(133, 23);
+            this.lblSepidPort.Size = new System.Drawing.Size(114, 19);
             this.lblSepidPort.TabIndex = 16;
             this.lblSepidPort.Text = "Port:";
             // 
             // txtSepidIP
             // 
             this.txtSepidIP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSepidIP.Location = new System.Drawing.Point(167, 24);
+            this.txtSepidIP.Location = new System.Drawing.Point(143, 20);
+            this.txtSepidIP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSepidIP.Name = "txtSepidIP";
-            this.txtSepidIP.Size = new System.Drawing.Size(265, 23);
+            this.txtSepidIP.Size = new System.Drawing.Size(227, 20);
             this.txtSepidIP.TabIndex = 15;
             // 
             // lblSepidIp
             // 
             this.lblSepidIp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSepidIp.Location = new System.Drawing.Point(28, 24);
+            this.lblSepidIp.Location = new System.Drawing.Point(24, 20);
             this.lblSepidIp.Name = "lblSepidIp";
-            this.lblSepidIp.Size = new System.Drawing.Size(133, 23);
+            this.lblSepidIp.Size = new System.Drawing.Size(114, 19);
             this.lblSepidIp.TabIndex = 14;
             this.lblSepidIp.Text = "IP:";
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.panel3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(465, 473);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage3.Size = new System.Drawing.Size(397, 382);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Kaveh Fake SDK";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -394,52 +423,58 @@ namespace SdkTest
             this.panel3.Controls.Add(this.txtKavehFakePort);
             this.panel3.Controls.Add(this.lblKavehFakePort);
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(462, 473);
+            this.panel3.Size = new System.Drawing.Size(396, 384);
             this.panel3.TabIndex = 1;
             // 
             // lblKavehFakeMessage
             // 
             this.lblKavehFakeMessage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblKavehFakeMessage.Location = new System.Drawing.Point(30, 272);
+            this.lblKavehFakeMessage.Location = new System.Drawing.Point(26, 221);
             this.lblKavehFakeMessage.Name = "lblKavehFakeMessage";
-            this.lblKavehFakeMessage.Size = new System.Drawing.Size(407, 23);
+            this.lblKavehFakeMessage.Size = new System.Drawing.Size(349, 19);
             this.lblKavehFakeMessage.TabIndex = 16;
             this.lblKavehFakeMessage.Text = "Response:";
             // 
             // txtKavehFakeTimeOn
             // 
-            this.txtKavehFakeTimeOn.Location = new System.Drawing.Point(169, 176);
+            this.txtKavehFakeTimeOn.Location = new System.Drawing.Point(145, 143);
+            this.txtKavehFakeTimeOn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtKavehFakeTimeOn.Name = "txtKavehFakeTimeOn";
-            this.txtKavehFakeTimeOn.Size = new System.Drawing.Size(268, 23);
+            this.txtKavehFakeTimeOn.Size = new System.Drawing.Size(230, 20);
             this.txtKavehFakeTimeOn.TabIndex = 15;
             // 
             // txtkavehFakeRelayNumber
             // 
-            this.txtkavehFakeRelayNumber.Location = new System.Drawing.Point(169, 138);
+            this.txtkavehFakeRelayNumber.Location = new System.Drawing.Point(145, 112);
+            this.txtkavehFakeRelayNumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtkavehFakeRelayNumber.Name = "txtkavehFakeRelayNumber";
-            this.txtkavehFakeRelayNumber.Size = new System.Drawing.Size(268, 23);
+            this.txtkavehFakeRelayNumber.Size = new System.Drawing.Size(230, 20);
             this.txtkavehFakeRelayNumber.TabIndex = 14;
             // 
             // txtKavehFakeEndUserAddress
             // 
-            this.txtKavehFakeEndUserAddress.Location = new System.Drawing.Point(169, 102);
+            this.txtKavehFakeEndUserAddress.Location = new System.Drawing.Point(145, 83);
+            this.txtKavehFakeEndUserAddress.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtKavehFakeEndUserAddress.Name = "txtKavehFakeEndUserAddress";
-            this.txtKavehFakeEndUserAddress.Size = new System.Drawing.Size(268, 23);
+            this.txtKavehFakeEndUserAddress.Size = new System.Drawing.Size(230, 20);
             this.txtKavehFakeEndUserAddress.TabIndex = 13;
             // 
             // txtKavehFakeRouterAddress
             // 
-            this.txtKavehFakeRouterAddress.Location = new System.Drawing.Point(169, 66);
+            this.txtKavehFakeRouterAddress.Location = new System.Drawing.Point(145, 54);
+            this.txtKavehFakeRouterAddress.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtKavehFakeRouterAddress.Name = "txtKavehFakeRouterAddress";
-            this.txtKavehFakeRouterAddress.Size = new System.Drawing.Size(268, 23);
+            this.txtKavehFakeRouterAddress.Size = new System.Drawing.Size(230, 20);
             this.txtKavehFakeRouterAddress.TabIndex = 12;
             // 
             // btnKavehFakeOpen
             // 
-            this.btnKavehFakeOpen.Location = new System.Drawing.Point(30, 220);
+            this.btnKavehFakeOpen.Location = new System.Drawing.Point(26, 179);
+            this.btnKavehFakeOpen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnKavehFakeOpen.Name = "btnKavehFakeOpen";
-            this.btnKavehFakeOpen.Size = new System.Drawing.Size(407, 35);
+            this.btnKavehFakeOpen.Size = new System.Drawing.Size(349, 28);
             this.btnKavehFakeOpen.TabIndex = 10;
             this.btnKavehFakeOpen.Text = "Open";
             this.btnKavehFakeOpen.UseVisualStyleBackColor = true;
@@ -448,63 +483,63 @@ namespace SdkTest
             // label2
             // 
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Location = new System.Drawing.Point(30, 176);
+            this.label2.Location = new System.Drawing.Point(26, 143);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 23);
+            this.label2.Size = new System.Drawing.Size(114, 19);
             this.label2.TabIndex = 8;
             this.label2.Text = "Time Out:";
             // 
             // lblkavehFakeRelayNumber
             // 
             this.lblkavehFakeRelayNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblkavehFakeRelayNumber.Location = new System.Drawing.Point(30, 138);
+            this.lblkavehFakeRelayNumber.Location = new System.Drawing.Point(26, 112);
             this.lblkavehFakeRelayNumber.Name = "lblkavehFakeRelayNumber";
-            this.lblkavehFakeRelayNumber.Size = new System.Drawing.Size(133, 23);
+            this.lblkavehFakeRelayNumber.Size = new System.Drawing.Size(114, 19);
             this.lblkavehFakeRelayNumber.TabIndex = 6;
             this.lblkavehFakeRelayNumber.Text = "Device Number:";
             // 
             // lblKavehFakeEndUserAddress
             // 
             this.lblKavehFakeEndUserAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblKavehFakeEndUserAddress.Location = new System.Drawing.Point(30, 102);
+            this.lblKavehFakeEndUserAddress.Location = new System.Drawing.Point(26, 83);
             this.lblKavehFakeEndUserAddress.Name = "lblKavehFakeEndUserAddress";
-            this.lblKavehFakeEndUserAddress.Size = new System.Drawing.Size(133, 23);
+            this.lblKavehFakeEndUserAddress.Size = new System.Drawing.Size(114, 19);
             this.lblKavehFakeEndUserAddress.TabIndex = 4;
             this.lblKavehFakeEndUserAddress.Text = "End User Address:";
             // 
             // lblKavehFakeRouterAddress
             // 
             this.lblKavehFakeRouterAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblKavehFakeRouterAddress.Location = new System.Drawing.Point(30, 66);
+            this.lblKavehFakeRouterAddress.Location = new System.Drawing.Point(26, 54);
             this.lblKavehFakeRouterAddress.Name = "lblKavehFakeRouterAddress";
-            this.lblKavehFakeRouterAddress.Size = new System.Drawing.Size(133, 23);
+            this.lblKavehFakeRouterAddress.Size = new System.Drawing.Size(114, 19);
             this.lblKavehFakeRouterAddress.TabIndex = 2;
             this.lblKavehFakeRouterAddress.Text = "Router Address:";
             // 
             // txtKavehFakePort
             // 
             this.txtKavehFakePort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtKavehFakePort.Location = new System.Drawing.Point(169, 27);
+            this.txtKavehFakePort.Location = new System.Drawing.Point(145, 22);
+            this.txtKavehFakePort.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtKavehFakePort.Name = "txtKavehFakePort";
-            this.txtKavehFakePort.Size = new System.Drawing.Size(268, 23);
+            this.txtKavehFakePort.Size = new System.Drawing.Size(230, 20);
             this.txtKavehFakePort.TabIndex = 1;
             // 
             // lblKavehFakePort
             // 
             this.lblKavehFakePort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblKavehFakePort.Location = new System.Drawing.Point(30, 27);
+            this.lblKavehFakePort.Location = new System.Drawing.Point(26, 22);
             this.lblKavehFakePort.Name = "lblKavehFakePort";
-            this.lblKavehFakePort.Size = new System.Drawing.Size(133, 23);
+            this.lblKavehFakePort.Size = new System.Drawing.Size(114, 19);
             this.lblKavehFakePort.TabIndex = 0;
             this.lblKavehFakePort.Text = "Port:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(497, 526);
+            this.ClientSize = new System.Drawing.Size(426, 427);
             this.Controls.Add(this.lblKavehFakeTimeOn);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Board Checking Application";
             this.lblKavehFakeTimeOn.ResumeLayout(false);
